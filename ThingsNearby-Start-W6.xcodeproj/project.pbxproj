@@ -22,6 +22,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		12B0E90D2288921E00CCD9BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12B0E9082288921E00CCD9BC /* ThingsNearby.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 12BD18E42209C3A20022A293;
+			remoteInfo = ThingsNearby;
+		};
+		12B0E90F2288921E00CCD9BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12B0E9082288921E00CCD9BC /* ThingsNearby.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 12BD18F82209C3A30022A293;
+			remoteInfo = ThingsNearbyTests;
+		};
 		12BD18F92209C3A30022A293 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 12BD18DC2209C3A20022A293 /* Project object */;
@@ -33,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		1290F11022130041004F1486 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		12B0E9082288921E00CCD9BC /* ThingsNearby.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ThingsNearby.xcodeproj; path = "../iOS-CA-Start-W7/ThingsNearby.xcodeproj"; sourceTree = "<group>"; };
 		12BD18E42209C3A20022A293 /* ThingsNearby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThingsNearby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BD18E72209C3A20022A293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12BD18E92209C3A20022A293 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,9 +83,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12B0E9092288921E00CCD9BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12B0E90E2288921E00CCD9BC /* ThingsNearby.app */,
+				12B0E9102288921E00CCD9BC /* ThingsNearbyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		12BD18DB2209C3A20022A293 = {
 			isa = PBXGroup;
 			children = (
+				12B0E9082288921E00CCD9BC /* ThingsNearby.xcodeproj */,
 				12BD18E62209C3A20022A293 /* ThingsNearby */,
 				12BD18FB2209C3A30022A293 /* ThingsNearbyTests */,
 				12BD18E52209C3A20022A293 /* Products */,
@@ -179,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 12BD18DF2209C3A20022A293 /* Build configuration list for PBXProject "ThingsNearby" */;
+			buildConfigurationList = 12BD18DF2209C3A20022A293 /* Build configuration list for PBXProject "ThingsNearby-Start-W6" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -190,6 +215,12 @@
 			mainGroup = 12BD18DB2209C3A20022A293;
 			productRefGroup = 12BD18E52209C3A20022A293 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 12B0E9092288921E00CCD9BC /* Products */;
+					ProjectRef = 12B0E9082288921E00CCD9BC /* ThingsNearby.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				12BD18E32209C3A20022A293 /* ThingsNearby */,
@@ -197,6 +228,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		12B0E90E2288921E00CCD9BC /* ThingsNearby.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ThingsNearby.app;
+			remoteRef = 12B0E90D2288921E00CCD9BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		12B0E9102288921E00CCD9BC /* ThingsNearbyTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ThingsNearbyTests.xctest;
+			remoteRef = 12B0E90F2288921E00CCD9BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		12BD18E22209C3A20022A293 /* Resources */ = {
@@ -469,7 +517,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12BD18DF2209C3A20022A293 /* Build configuration list for PBXProject "ThingsNearby" */ = {
+		12BD18DF2209C3A20022A293 /* Build configuration list for PBXProject "ThingsNearby-Start-W6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12BD18FF2209C3A30022A293 /* Debug */,
